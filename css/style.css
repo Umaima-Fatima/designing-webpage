@@ -1,0 +1,892 @@
+body {
+    background-color: #000;
+}
+
+header {
+    margin-top: 1rem;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.header-list {
+    margin-top: 10px;
+    justify-content: right;
+    text-align: right;
+    align-items: end;
+    display: flex;
+}
+
+.header-list a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+.first-button {
+    color: #fff;
+}
+
+.first-button i {
+    padding-top: 9px;
+    width: 40px;
+    height: 35px;
+    border-radius: 18px;
+    border: 1px solid rgb(64, 97, 230);
+    background-color: rgb(20, 47, 155);
+}
+
+.header-list .btn2 {
+    font-size: 15px;
+    background-color: rgb(20, 47, 155);
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(63, 97, 233);
+    border-radius: 2rem;
+    padding: 1px 0;
+}
+
+.paragraph p {
+    margin: 4rem 0 0;
+}
+
+.main p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.green p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(20, 47, 155);
+    text-transform: uppercase;
+}
+
+.main h1 {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.green {
+    display: flex;
+    margin: 0;
+}
+
+.green p {
+    margin-right: 30px;
+    width: 30%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.secondgreen {
+    display: flex;
+}
+
+.secondgreen h6 {
+    margin-right: 5px;
+    color: #fff;
+    width: 35%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.greenbox {
+    width: 24px;
+    height: 27px;
+    margin: 5px 0.5px;
+    background-color: rgb(9, 151, 57);
+    border-radius: 1px;
+}
+
+.greenbox i {
+    padding: 6px 4px;
+    color: #fff;
+}
+
+.greenstar {
+    display: flex;
+}
+
+.greenstar i {
+    padding-top: 4px;
+    color: rgb(9, 151, 57);
+}
+
+.design img {
+    height: 400px;
+    margin: 2rem 1.5rem 0;
+}
+
+.touching img {
+    width: 380px;
+    height: 180px;
+    margin: 0;
+}
+
+.form-man {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    background-color: #0a0909;
+    color: #fff;
+    border: 1px solid #180d0d;
+    height: 80px;
+    padding: 0px 6px;
+    border-radius: 2rem;
+}
+
+.form-man .box {
+    width: 450px;
+    height: 40px;
+    border: 1px solid rgb(120, 120, 121);
+    background-color: rgb(77, 78, 82);
+    border-radius: 6px;
+    margin-left: 20px;
+    padding-top: 7px;
+}
+
+.form-man .box a {
+    margin-left: 15px;
+}
+
+.form-man .box2 {
+    margin-right: 15px;
+}
+
+.form-man .btn3 {
+    font-size: 15px;
+    background-color: rgb(20, 47, 155);
+    color: #fff;
+    width: 130px;
+    border: 1px solid rgb(68, 103, 245);
+    border-radius: 2rem;
+    margin-right: 20px;
+}
+
+.main-heading {
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6rem;
+}
+
+.main-heading h1 {
+    width: 60%;
+}
+
+.third-section {
+    margin-left: 6rem;
+}
+
+.parent {
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+}
+
+.box3 {
+    background-color: rgb(21, 21, 26);
+    color: #fff;
+    width: 270px;
+    border: 1px solid rgb(42, 42, 51);
+    height: 380px;
+    border-radius: 20px;
+    padding: 18px 25px;
+    margin: 0 8px;
+}
+
+.box3:hover {
+    transform: translateY(8px);
+    transition: transform 0.40s;
+}
+
+.box3 h5 {
+    font-size: 23px;
+    font-weight: 600;
+    width: 80%;
+}
+
+.parent .box6 {
+    border: 1px solid rgb(53, 91, 241);
+    background-color: rgb(20, 47, 155);
+}
+
+.parent .box6 .box-para p {
+    color: #fff;
+}
+
+.box-para p {
+    margin: 0;
+    font-size: 38px;
+    font-weight: 700;
+    color: rgb(20, 47, 155);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: circle;
+    margin-left: 18px;
+}
+
+li {
+    font-size: 18px;
+}
+
+.parent .end {
+    margin-top: 8px;
+    display: flex;
+    border: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(20, 47, 155);
+    color: #fff;
+    height: 35px;
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 18px;
+}
+
+.button p {
+    padding: 6px;
+}
+
+.button1 {
+    background-color: rgb(21, 21, 26);
+    text-align: left;
+}
+
+.button2 {
+    background-color: #fff;
+    color: rgb(20, 47, 155);
+    width: 50%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 18px;
+}
+
+.button2 p {
+    padding: 6px;
+}
+
+.button3 {
+    background-color: rgb(20, 47, 155);
+    color: #fff;
+    width: 50%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 18px;
+    text-align: left;
+}
+
+.parent2 {
+    margin-left: 9rem;
+}
+
+
+.sixth-section {
+    background-color: rgb(20, 47, 155);
+    margin-top: 3rem;
+    text-align: center;
+    height: 250px;
+}
+
+.title h1 {
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+}
+
+.title p {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 15px;
+    color: #fff;
+    width: 58%;
+    margin: auto;
+}
+
+.new {
+    margin-top: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.new .button2 {
+    width: 11%;
+    background-color: #fff;
+    border: 1px solid rgb(32, 70, 221);
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 18px;
+}
+
+.new .button2 p {
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(20, 47, 155);
+    padding: 6px 0px;
+}
+
+.new .button3 {
+    width: 11%;
+    background-color: rgb(20, 47, 155);
+    border: 1px solid #fff;
+    color: #fff;
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 18px;
+}
+
+.new .button3 p {
+    color: #fff;
+    padding: 6px 0px;
+
+}
+
+.logo-design {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.logo-design h1 {
+    text-transform: capitalize;
+}
+
+.eleventh-section {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.parent-child {
+    display: flex;
+    margin-left: 9rem;
+}
+
+.parent-child .box3 {
+    margin: 4px;
+}
+
+.eleventh-section .box3 h5 {
+    font-size: 28px;
+    width: 75%;
+}
+
+.eleventh-section .box3 p {
+    margin-top: 1rem;
+}
+
+.eleventh-section .box1 {
+    background-color: rgb(20, 47, 155);
+}
+
+.btnbox {
+    display: flex;
+}
+
+.btnbox .box4 {
+    margin: 3px;
+    width: 50%;
+    height: 100px;
+    border-radius: 7px;
+    background-color: #fff;
+}
+
+.all img {
+    width: 130px;
+    height: 120px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+.abstract img {
+    width: 150px;
+    height: 150px;
+    padding-bottom: 45px;
+    padding-right: 40px;
+}
+
+.iconic img {
+    width: 120px;
+    height: 130px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+}
+
+.lorem img {
+    width: 120px;
+    height: 180px;
+    padding-bottom: 75px;
+    padding-right: 10px;
+}
+
+.button4 {
+    background-color: rgb(20, 47, 155);
+    width: 100%;
+    height: 28px;
+    color: #fff;
+    border-radius: 13px;
+}
+
+.button4 p {
+    padding-top: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.button5 {
+    color: #000;
+    background-color: #fff;
+}
+
+.heading-three {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.heading-three h1 {
+    text-transform: capitalize;
+}
+
+.heading-three p {
+    margin: auto;
+    margin-top: 1rem;
+    width: 43%;
+    font-weight: 500;
+    color: #fff;
+}
+
+.moreboxes {
+    margin: 2rem 6rem;
+    display: flex;
+    width: 100%;
+}
+
+.moreboxes .box5 {
+    margin: 3px;
+    height: 200px;
+    border-radius: 4px;
+    border: 1px solid rgb(241, 104, 104);
+    background-color: rgb(199, 0, 0);
+}
+
+.moreboxes .box5 img {
+    margin-top: 15px;
+    width: 180px;
+    height: 190px;
+}
+
+.moreboxes .box7 img {
+    margin: 47px 27px 0;
+    width: 120px;
+    height: 110px;
+}
+
+.moreboxes .box8 img {
+    margin: 48px 0;
+    width: 180px;
+    height: 100px;
+}
+
+.moreboxes .box9 img {
+    width: 170px;
+    height: 170px;
+}
+
+.moreboxes .box10 img {
+    margin: 45px 22px 0;
+    width: 130px;
+    height: 110px;
+}
+
+.moreboxes .box7 {
+    border: 1px solid rgb(241, 104, 104);
+    background-color: #fff;
+}
+
+.moreboxes .box9 {
+    background-color: #fff;
+}
+
+.center-heading {
+    text-align: center;
+}
+
+.center-heading h2 {
+    font-size: 43px;
+    font-weight: 400;
+    color: #fff;
+    width: 50%;
+    margin: auto;
+}
+
+.center-heading h2 img {
+    width: 100px;
+    height: 100px;
+}
+
+.center-heading span {
+    color: rgb(20, 47, 155);
+}
+
+.center-heading .btn4 {
+    margin-top: 1.5rem;
+    color: #fff;
+    background-color: rgb(20, 47, 155);
+    border-radius: 16px;
+    width: 120px;
+    height: 30px;
+}
+
+.tenth-section {
+    margin-top: 2rem;
+    background-color: rgb(20, 47, 155);
+    color: #fff;
+    text-align: center;
+    height: 400px;
+}
+
+.last h1 {
+    color: #fff;
+    text-transform: initial;
+    margin: 1rem 0 10px;
+    font-weight: 400;
+}
+
+.last p {
+    width: 35%;
+    margin: auto;
+}
+
+.end-para {
+    text-align: left;
+
+}
+
+.end-para h3 {
+    margin: 2rem 7rem 0;
+    text-transform: capitalize;
+}
+
+.end-para p {
+    margin: 10px 7rem 0;
+    width: 90%;
+}
+
+.button7 {
+    margin: 10px 7rem 0;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 1px solid rgb(98, 129, 255);
+    height: 29px;
+    width: 90px;
+}
+
+.button7 p {
+    padding-top: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(20, 47, 155);
+}
+
+.end-image {
+    margin-top: 3rem;
+}
+
+.end-image img {
+    width: 350px;
+    height: 220px;
+}
+
+.reviews {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.reviews h1 {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.reviewboxes {
+    display: flex;
+    margin: 2rem 10rem;
+}
+
+.reviewboxes .box11 {
+    padding: 15px 20px;
+    margin: 6px;
+    border-radius: 8px;
+    width: 250px;
+    height: 240px;
+    background-color: rgb(21, 21, 26);
+}
+
+.box11 i {
+    color: rgb(194, 194, 33);
+}
+
+.reviewboxes .box11 img {
+    width: 50px;
+    height: 50px;
+}
+
+.box11 p {
+    padding-top: 10px;
+    color: #fff;
+}
+
+.image {
+    display: flex;
+}
+
+.slideruser {
+    margin-left: 7px;
+}
+
+.slideruser h6 {
+    margin-top: 5px;
+    color: #fff;
+}
+
+.slideruser p {
+    padding: 0;
+}
+
+.reviewboxes .first {
+    background-color: rgb(20, 47, 155);
+}
+
+.thirteenth-section {
+    height: 620px;
+    background-color: rgb(21, 21, 26);
+}
+
+.footer {
+    margin-top: 3rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer h2 {
+    font-size: 38px;
+    width: 40%;
+    color: rgb(20, 47, 155);
+    text-transform: capitalize;
+}
+
+.contact {
+    margin: 2rem 5rem 0;
+}
+
+.thirteenth-section p {
+    font-size: 24px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.contactform {
+    margin: 0 5rem;
+    width: 100%;
+}
+
+.contactform textarea#exampleFormControlTextarea1 {
+    border: 1px solid #fff;
+    height: 130px;
+    resize: none;
+}
+
+.contactform .form-control::-webkit-input-placeholder {
+    font-size: 16px;
+    padding-left: 5px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+.contactform .form-control:-ms-input-placeholder {
+    font-size: 16px;
+    padding-left: 5px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+.contactform .form-control::placeholder {
+    font-size: 16px;
+    padding-left: 5px;
+    font-weight: 300;
+    opacity: 1;
+}
+
+.buttonform {
+    margin-top: 15px;
+}
+
+.buttonform .btnCustom {
+    background-color: rgb(20, 47, 155);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    width: 25%;
+    height: 40px;
+    border-radius: 3rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.message {
+    margin-left: 15rem;
+}
+
+.info p {
+    font-size: 14px;
+}
+
+.contactinfo {
+    padding-top: 10px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contactphone {
+    display: flex;
+}
+
+.phoneicon {
+    margin-top: 12px;
+    background-color: rgb(20, 47, 155);
+    color: #fff;
+    border-radius: 4rem;
+    height: 36px;
+    width: 37px;
+}
+
+.contactinfo i {
+    padding: 11px 11px;
+}
+
+.contactmail {
+    margin-top: 10px;
+    display: flex;
+}
+
+.mailicon {
+    margin-top: 12px;
+    background-color: rgb(20, 47, 155);
+    color: #fff;
+    border-radius: 4rem;
+    height: 36px;
+    width: 37px;
+}
+
+.address {
+    margin-top: 10px;
+    display: flex;
+}
+
+.location {
+    margin-top: 12px;
+    background-color: rgb(20, 47, 155);
+    color: #fff;
+    border-radius: 4rem;
+    height: 35px;
+    width: 40px;
+}
+
+.phoneinfo {
+    margin-left: 15px;
+}
+
+.mailinfo {
+    margin-left: 15px;
+}
+
+.addressinfo {
+    margin-left: 15px;
+}
+
+.contactinfo a {
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+}
+
+.contactinfo p {
+    font-size: 15px;
+    margin-top: 3px;
+    color: #fff;
+    text-transform: initial;
+}
+
+.forteenth-section {
+    margin-top: 1rem;
+    height: 110px;
+}
+
+.social-icons {
+    margin-top: 2.5rem;
+    margin-left: 5rem;
+    display: flex;
+}
+
+.icons {
+    margin: 3px 10px;
+    color: #fff;
+}
+
+.linkicons a {
+    text-decoration: none;
+    padding: 0 6px;
+    font-size: 18px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.linkicons a:hover {
+    color: rgb(20, 47, 155);
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+}
+
+.endlogo img {
+    margin-left: 5rem;
+    width: 160px;
+    height: 100px;
+}
+
+.Copyright-Main {
+    margin: 2rem 2.5rem;
+}
+
+.Copyright-Main p {
+    color: #fff;
+    font-weight: 500;
+}
+
+.Copyright-Main span {
+    color: rgb(20, 47, 155);
+}
